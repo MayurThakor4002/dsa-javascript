@@ -67,11 +67,11 @@ console.log("10" / 2); // 5 - string to number coercion
 
 // Accept and print user input
 
-let age = prompt("Enter your age:");
-console.log("Your age is: " + age); // prints the age entered by the user in form of a string
+// let age = prompt("Enter your age:");
+// console.log("Your age is: " + age); // prints the age entered by the user in form of a string
 
-age = Number(age); // converting string input to number 
-console.log("Your age is: " + age); // prints the age as a number  // but input box ke andar string like abcd will give NaN
+// age = Number(age); // converting string input to number 
+// console.log("Your age is: " + age); // prints the age as a number  // but input box ke andar string like abcd will give NaN
 
 
 // Swapping variables via three methods
