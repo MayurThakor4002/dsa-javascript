@@ -11,7 +11,7 @@ console.log(Math.floor(a / b)); // 5 - floor division (Quotient without decimal)
 // mode
 console.log(a % b); // 1 - modulus (remainder)
 
-console.log(b % a); // 4 - modulus (remainder) // becuase 4 < 21 and if divisor is greater than dividend, remainder is dividend itself
+console.log(b % a); // 4 - modulus (remainder) // becuase b < a and if divisor is greater than dividend, remainder is dividend itself
 
 
 // trick to get last digit and remove last digit from a number 
